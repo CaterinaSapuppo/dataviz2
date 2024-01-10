@@ -19,12 +19,12 @@ fig = px.bar(filtered_data,
              x="Year", 
              y="Internet Usage Percentage", 
              title=f"Internet Usage Percentage in {country}",
-             color_discrete_sequence=['white']) 
+             color_discrete_sequence=['black']) 
 
 fig.update_layout(autosize=False, width=800, height=600, 
                   plot_bgcolor='white', 
                   margin=dict(l=20, r=20, t=50, b=20),
-                  title_font=dict(color='black'), 
+                  title_font=dict(color='white'), 
                   font=dict(color='black'))
 
 fig.update_xaxes(title='')
