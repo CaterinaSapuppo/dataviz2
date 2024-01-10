@@ -19,7 +19,7 @@ fig = px.bar(filtered_data,
              x="Year", 
              y="Internet Usage Percentage", 
              title=f"Internet Usage Percentage in {country}",
-             color_discrete_sequence=['black']) 
+             color_discrete_sequence=['white']) 
 
 fig.update_layout(autosize=False, width=800, height=600, 
                   plot_bgcolor='white', 
