@@ -24,7 +24,7 @@ fig = px.bar(filtered_data,
 fig.update_layout(autosize=False, width=800, height=600, 
                   plot_bgcolor='white', 
                   margin=dict(l=20, r=20, t=50, b=20),
-                  title_font=dict(color='white'), 
+                  title_font=dict(color='darkgrey'), 
                   font=dict(color='black'))
 
 fig.update_xaxes(title='')
