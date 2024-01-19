@@ -37,8 +37,8 @@ fig.update_layout(
 )
 
 # Remove titles from x and y axes
-fig.update_xaxes(title='')
-fig.update_yaxes(title='')
+fig.update_xaxes(title='', showgrid=False)
+fig.update_yaxes(title='', showgrid=False)
 
 # Customize y-axis tick values and labels
 fig.update_yaxes(tickvals=[20, 40, 60, 80, 100], ticktext=['20%', '40%', '60%', '80%', '100%'])
